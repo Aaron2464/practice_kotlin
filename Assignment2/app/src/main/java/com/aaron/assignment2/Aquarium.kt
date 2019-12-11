@@ -31,10 +31,9 @@ open class Aquarium(
 
     fun printSize() {
         println(shape)
-        println(
-            "Width: $width cm " +
-                    "Length: $length cm " +
-                    "HeightL $height cm "
+        println("Width: $width cm " +
+                "Length: $length cm " +
+                "HeightL $height cm "
         )
 
         println("Volume: $volume l water: $water l (${water / volume * 100.0} % full)")

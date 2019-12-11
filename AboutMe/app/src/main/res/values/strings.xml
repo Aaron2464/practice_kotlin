@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AboutMe</string>
+    <string name="what_is_ur_name">What is your nick name?</string>
+    <string name="done">Done</string>
+    <string name="summary">Let\'s try to run your application. I assume you have connected your actual Android Mobile device with your computer. To run the app from android studio, open one of your project\'s activity files and click Run icon from the toolbar. Select your mobile device as an option and then check your mobile device which will display your default screen −</string>
+</resources>
