@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TrackMySleepQuality-Starter.iml" filepath="$PROJECT_DIR$/TrackMySleepQuality-Starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/TrackMySleepQuality-Starter-app.iml" filepath="$PROJECT_DIR$/app/TrackMySleepQuality-Starter-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice_kotlin-TrackMySleepQuality-Starter.iml" filepath="$PROJECT_DIR$/practice_kotlin-TrackMySleepQuality-Starter.iml" />
     </modules>
   </component>
 </project>
