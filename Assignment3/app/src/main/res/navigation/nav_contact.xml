@@ -8,11 +8,13 @@
     <fragment
         android:id="@+id/addContactFragment"
         android:name="com.example.assignment3.fragment.AddContactFragment"
-        android:label="AddContactFragment" />
+        android:label="AddContactFragment"
+        tools:layout="@layout/fragment_add_contact" />
     <fragment
         android:id="@+id/contacstFragment"
         android:name="com.example.assignment3.fragment.ContactsFragment"
-        android:label="ContacstFragment" >
+        android:label="ContacstFragment"
+        tools:layout="@layout/fragment_contacts">
         <action
             android:id="@+id/action_contacstFragment_to_addContactFragment"
             app:destination="@id/addContactFragment" />
