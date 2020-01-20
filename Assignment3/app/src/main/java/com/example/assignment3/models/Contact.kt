@@ -3,44 +3,47 @@ package com.example.assignment3.models
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 
-class Contact {
+data class Contact(
     @SerializedName("gender")
     @Expose
-    private val gender: String? = null
+    val gender: String,
     @SerializedName("name")
     @Expose
-    private val name: Name? = null
-    @SerializedName("location")
-    @Expose
-    private val location: Location? = null
+    val name: Name,
+//    @SerializedName("location")
+//    @Expose
+//    private val location: Location,
     @SerializedName("email")
     @Expose
-    private val email: String? = null
+    val email: String,
     @SerializedName("cell")
     @Expose
-    private val cell: String? = null
+    val cell: String
+)
 
-    class Name {
-        @SerializedName("first")
-        @Expose
-        private val first: String? = null
-        @SerializedName("last")
-        @Expose
-        private val last: String? = null
-    }
+data class Name(
+    @SerializedName("title")
+    @Expose
+    val title: String,
+    @SerializedName("first")
+    @Expose
+    val first: String,
+    @SerializedName("last")
+    @Expose
+    val last: String
+)
 
-    class Location {
-        @SerializedName("street")
-        @Expose
-        private val street: String? = null
-        @SerializedName("city")
-        @Expose
-        private val city: String? = null
-        @SerializedName("state")
-        @Expose
-        private val province: String? = null
-        @SerializedName("postcode")
-        @Expose
-        private val postcode: String? = null
-    }
-}
+//data class Location(
+//    @SerializedName("street")
+//    @Expose
+//    private val street: String? = null,
+//    @SerializedName("city")
+//    @Expose
+//    private val city: String? = null,
+//    @SerializedName("state")
+//    @Expose
+//    private val province: String? = null,
+//    @SerializedName("postcode")
+//    @Expose
+//    private val postcode: String? = null
+//)
